@@ -1,0 +1,48 @@
+############################
+# Fichiers et dossiers génériques
+############################
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.orig
+
+############################
+# Node / JavaScript / TypeScript
+############################
+
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+.pnpm-store/
+.yarn/
+.yarn-cache/
+.eslintcache
+coverage/
+dist/
+build/
+.turbo/
+.vite/
+
+############################
+# Environnements / secrets
+############################
+
+.env
+.env.*
+!.env.example
+
+############################
+# IDE / éditeur
+############################
+
+.vscode/
+.idea/
+.history/
+.fleet/
+
