@@ -1,0 +1,17 @@
+{
+  "name": "hackathon-abtest-root",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:abtest": "npm run dev --prefix abtest-solution",
+    "dev:webserver": "npm run dev --prefix small-webserver",
+    "dev": "concurrently -n abtest,webserver -c cyan,magenta \"npm run dev:abtest\" \"npm run dev:webserver\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
