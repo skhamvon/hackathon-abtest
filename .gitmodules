@@ -1,7 +1,10 @@
 [submodule "small-webserver"]
 	path = small-webserver
-	url = https://github.com/skhamvon/small-webserver.git
-
+	url = git@github.com:skhamvon/small-webserver.git
 [submodule "abtest-solution"]
 	path = abtest-solution
-	url = https://github.com/skhamvon/abtest-solution.git
+	url = git@github.com:skhamvon/abtest-solution.git
+fdsfsd
+[submodule "abtest-docs"]
+	path = abtest-docs
+	url = git@github.com:skhamvon/abtest-docs.git
