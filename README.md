@@ -7,11 +7,14 @@ Il ne contient pas de logique métier : il orchestre uniquement les différents 
 
 - `small-webserver/` → dépôt du petit serveur web de test
 - `abtest-solution/` → dépôt de la solution d’A/B testing (API, remote, UI, moteur)
+- `abtest-docs/` → documentation publique (MkDocs), déployée en général sur [GitHub Pages](https://skhamvon.github.io/abtest-docs/)
 - `.gitmodules` → configuration des submodules
 
 La configuration des campagnes et segments est située dans le submodule imbriqué :
 
 - `abtest-solution/abtest-campaigns-segments/`
+
+Après `git submodule update --init --recursive`, le dossier `abtest-docs/` contient les sources de la documentation (MkDocs) ; le site publié est en général sur [GitHub Pages](https://skhamvon.github.io/abtest-docs/).
 
 ### Clonage et initialisation
 
