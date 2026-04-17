@@ -5,7 +5,8 @@
   "scripts": {
     "dev:abtest": "npm run dev --prefix abtest-solution",
     "dev:webserver": "npm run dev --prefix small-webserver",
-    "dev": "concurrently -n abtest,webserver -c cyan,magenta \"npm run dev:abtest\" \"npm run dev:webserver\""
+    "dev": "concurrently -n abtest,webserver -c cyan,magenta \"npm run dev:abtest\" \"npm run dev:webserver\"",
+    "ports:free": "bash scripts/free-project-ports.sh"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"
